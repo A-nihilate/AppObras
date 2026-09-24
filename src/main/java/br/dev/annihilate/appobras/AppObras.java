@@ -77,11 +77,11 @@ public class AppObras {
         }
 
 //        output
-        System.out.println("Informacoes da obra:");
+        System.out.println("\n-----\n\nInformacoes da obra:");
 
         System.out.println(obraA.toString());
 
-        System.out.println("informacoes dos Comodos");
+        System.out.println("\n-----\n\ninformacoes dos Comodos \n-----\n");
 
         for (Comodo AtualComodo : obraA.listaComodos) {
 

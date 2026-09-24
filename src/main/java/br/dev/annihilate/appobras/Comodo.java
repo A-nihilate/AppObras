@@ -28,7 +28,12 @@ public class Comodo {
     
     @Override
     public String toString() {
-        return "Comodo{" + "nome=" + nome + ", largura=" + largura + ", comprimento=" + comprimento + '}';
+        return "\nDados do Comodo) " +
+                "\nNome: " + nome +
+                "\nLargura: " + largura + 
+                "\nComprimento: " + comprimento +
+                "\nArea: " + cauculaArea() +
+                "\n\n";
     }
     
     
