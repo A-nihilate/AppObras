@@ -41,7 +41,7 @@ public class Obra {
 
     @Override
     public String toString() {
-        return "Dados da Obra: " +
+        return  "Dados da Obra: " +
                 "\nproprietario: " + proprietario +
                 "\nlocal: " + local + 
                 "\ncidade: " + cidade +
